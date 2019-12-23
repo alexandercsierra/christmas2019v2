@@ -1,5 +1,5 @@
 [build]
-  command = "npm run build"
+  command = "react-scripts build"
   publish="/christmas2019v2/build"
   base = "/christmas2019vs"
 
