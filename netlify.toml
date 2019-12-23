@@ -1,0 +1,9 @@
+[build]
+  command = "npm run build"
+  publish="/christmas2019v2/build"
+  base = "/christmas2019vs"
+
+  [[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
