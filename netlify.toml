@@ -1,7 +1,4 @@
-[build]
-  command = "react-scripts build"
-  publish="/christmas2019v2/build"
-  base = "/christmas2019vs"
+
 
   [[redirects]]
   from = "/*"
