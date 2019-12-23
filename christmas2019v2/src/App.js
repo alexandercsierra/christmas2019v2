@@ -20,11 +20,15 @@ function App() {
   return (
     <div className={`App, ${holiday}`}>
       <Nav/>
-      <Route exact path="/"><Home setId={setId} id={id} holiday={holiday} setHoliday={setHoliday}/></Route>
-      <Route exact path="/card/:id"><Card holiday={holiday} setHoliday={setHoliday}/></Route>
+      {/* <Route exact path="/"><Home setId={setId} id={id} holiday={holiday} setHoliday={setHoliday}/></Route> */}
+      <Route exact path="/" render={(props) => (<Home {...props} setId={setId} id={id} holiday={holiday} setHoliday={setHoliday} />)}/>
+      {/* <Route exact path="/card/:id"><Card holiday={holiday} setHoliday={setHoliday}/></Route> */}
+      <Route exact path="/card/:id" render={(props) => (<Card {...props} holiday={holiday} setHoliday={setHoliday} />)}/>
         {/* <Postcard/> */}
         <Snow/>
 
+
+        {/* <Route render={(props) => (<MyComponent {...props} someProp={someData} someOtherProp={moreData} />)} /> */}
       
 
       
