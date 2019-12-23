@@ -6,7 +6,7 @@ import Card from './components/Card'
 import Nav from './components/Nav'
 import {Route} from 'react-router-dom'
 import Postcard from './components/Postcard'
-import Snow from './components/Snow'
+// import Snow from './components/Snow'
 import styled from 'styled-components'
 
 
@@ -25,7 +25,7 @@ function App() {
       {/* <Route exact path="/card/:id"><Card holiday={holiday} setHoliday={setHoliday}/></Route> */}
       <Route exact path="/card/:id" render={(props) => (<Card {...props} holiday={holiday} setHoliday={setHoliday} />)}/>
         {/* <Postcard/> */}
-        <Snow/>
+        {/* <Snow/> */}
 
 
         {/* <Route render={(props) => (<MyComponent {...props} someProp={someData} someOtherProp={moreData} />)} /> */}
