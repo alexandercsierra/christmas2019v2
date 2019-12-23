@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/christmas2019v2/static/css/main.fa6ecc01.chunk.css",
+    "main.js": "/christmas2019v2/static/js/main.eb56014b.chunk.js",
+    "main.js.map": "/christmas2019v2/static/js/main.eb56014b.chunk.js.map",
+    "runtime-main.js": "/christmas2019v2/static/js/runtime-main.54bd79e6.js",
+    "runtime-main.js.map": "/christmas2019v2/static/js/runtime-main.54bd79e6.js.map",
+    "static/js/2.b26b9a59.chunk.js": "/christmas2019v2/static/js/2.b26b9a59.chunk.js",
+    "static/js/2.b26b9a59.chunk.js.map": "/christmas2019v2/static/js/2.b26b9a59.chunk.js.map",
+    "index.html": "/christmas2019v2/index.html",
+    "precache-manifest.a705147a29c68956e066e667f2a6d1cc.js": "/christmas2019v2/precache-manifest.a705147a29c68956e066e667f2a6d1cc.js",
+    "service-worker.js": "/christmas2019v2/service-worker.js",
+    "static/css/main.fa6ecc01.chunk.css.map": "/christmas2019v2/static/css/main.fa6ecc01.chunk.css.map",
+    "static/js/2.b26b9a59.chunk.js.LICENSE": "/christmas2019v2/static/js/2.b26b9a59.chunk.js.LICENSE",
+    "static/media/back.jpg": "/christmas2019v2/static/media/back.3a170548.jpg",
+    "static/media/hannukard.jpg": "/christmas2019v2/static/media/hannukard.8eaa606d.jpg",
+    "static/media/holidaycard.jpg": "/christmas2019v2/static/media/holidaycard.0c122b51.jpg",
+    "static/media/lights.jpg": "/christmas2019v2/static/media/lights.872d26c1.jpg",
+    "static/media/logo.svg": "/christmas2019v2/static/media/logo.5d5d9eef.svg",
+    "static/media/App.css": "/christmas2019v2/static/media/wood.9409dffe.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.54bd79e6.js",
+    "static/js/2.b26b9a59.chunk.js",
+    "static/css/main.fa6ecc01.chunk.css",
+    "static/js/main.eb56014b.chunk.js"
+  ]
+}
